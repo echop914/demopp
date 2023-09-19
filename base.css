@@ -1,0 +1,27 @@
+:root{
+    --black:#12070b;
+    --grey: #C7C2C5;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 15px 8%;
+    width: 100vw;
+}
+
+html{
+    scroll-behavior: smooth;
+}

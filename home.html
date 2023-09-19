@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>PayPal Demo_1</title>
+</head>
+<body>
+
+    <!-- Notification -->
+    <div id="box-notification" class="hide">
+        <span class="close-btn"><i class="fa-solid fa-x"></i></span>
+        <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+        <h1 class="heading">Transfer successfully</h1>
+        <p>Process 24hr and the amount <span class="amount"></span>$ to <span class="userName"></span></p>
+        <div class="return-btn">
+            <button>Return Back</button>
+        </div>
+    </div>
+    <section class="navbar">
+        <div class="logo">
+            <i class="fa-brands fa-paypal"></i>
+            <h1 class="heading">PayPal</h1>
+        </div>
+
+        <div class="list-menu">
+            <a href="#">Home</a>
+            <a href="#" class="active">Send</a>
+            <a href="#">Wallet</a>
+            <a href="#">Activity</a>
+        </div>
+    </section>
+
+    <section class="send">
+      <div>
+        <div class="box-container">
+            <h1 class="heading">
+                PayPal Balance
+            </h1>
+            <div class="my-wallet">
+                $<span class="money">345655.23</span>
+            </div>
+            <div class="title">
+                <p>available balance</p>
+            </div>
+    
+            <div class="box">
+                <div class="box-item">
+                    <div class="box-input">
+                        <label for="user">Send Payment To:</label>
+                        <input type="text" id="user">
+                   </div>
+        
+                   <div class="box-input">
+                    <label for="">Select Currency:</label>
+                    <select name="" id="">
+                        <option value="USD">USD</option>
+                        <option value="VND">VND</option>
+                        <option value="EURO">EURO</option>
+                    </select>
+                   </div>
+        
+                   <div class="box-input">
+                    <label for="amount">Enter Amount:</label>
+                    <input id="amount" type="text">
+                   </div>
+    
+    
+                </div>
+                <div class="send-btn">
+                    <button>Send Money</button>
+                   </div>
+                </div>
+        </div>
+      </div>
+
+    </section>
+
+    <script src="home.js"></script>
+</body>
+</html>
